@@ -1,0 +1,4 @@
+FROM eclipse temurin:17
+  MKDIR\app
+  COPY(main.yml)
+  RUN(main.yml)
